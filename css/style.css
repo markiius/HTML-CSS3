@@ -1,9 +1,7 @@
 @import url('normalize.css');
 
-p{
-	background-color: blue;
+.clase1{
+	background-color: red;
 	color: #fff;
-}
-#parrafo{
-	color: red;
+	height: 50px;
 }
