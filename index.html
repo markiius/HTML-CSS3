@@ -3,13 +3,28 @@
 <head>
  	<meta charset="utf-8">
  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Aplicando css3</title>
+ 	<link href="https://fonts.googleapis.com/css?family=Lato:400,900"
+ 	rel="stylesheet">
+ 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Formulario</title>
 </head>
 <body>
-	<h1 class="clase1">Titulo h1</h1>
-	<h2 class="clase1">Titulo h2</h2>
-	<h3 class="clase1">Titulo h3</h3>
-	<div class="clase1">Div</div>
+	<div class="container">
+		<div class="formtop">
+			<h2>ITZOCAN<span>COFFE</span></h2>
+		</div>
+		<form class="formreg" action="">
+			<input class="input" type="text" placeholder="&#128100; Nombre" required autofocus>
+			<input class="input" type="text" placeholder="&#128100; Email" required>
+			<input class="input" type="text" placeholder="&#128100; Telefono" required>
+			<input class="input" type="text" placeholder="&#128100; Direccion" required>
+			<div class="btmform">
+				<input class="btnsubmit" type="submit" value="REGISTRAR">
+				<input class="btnreset" type="reset" value="LIMPIAR">
+			</div>
+			
+		</form>
+	</div>
 </body>
 </html>
